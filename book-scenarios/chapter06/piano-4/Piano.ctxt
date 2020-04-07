@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Piano
+comment0.text=\n\ A\ piano\ that\ can\ be\ played\ with\ the\ computer\ keyboard.\n\ \n\ @author\:\ M.\ K\u00F6lling\n\ @version\:\ 0.4\n
+comment1.params=
+comment1.target=Piano()
+comment1.text=\n\ Make\ the\ piano.\ This\ means\ mostly,\ apart\ from\ defining\ the\ size,\n\ making\ the\ keys\ and\ placing\ them\ into\ the\ world.\n
+comment2.params=
+comment2.target=void\ makeKeys()
+comment2.text=\n\ Create\ the\ piano\ keys\ and\ place\ them\ in\ the\ world.\n
+numComments=3

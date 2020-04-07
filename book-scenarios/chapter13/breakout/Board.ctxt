@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\n\ The\ game\ board.\ The\ board\ had\ a\ paddle\ that\ can\ move.\n\ \n\ @author\ mik\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Board()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Board.\n\ \n
+comment2.params=
+comment2.target=void\ ballIsOut()
+numComments=3

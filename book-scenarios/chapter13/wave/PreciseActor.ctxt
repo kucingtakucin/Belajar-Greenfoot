@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PreciseActor
+comment0.text=\n\ An\ actor\ superclass\ that\ maintains\ precision\ location\ (doubles\ instead\ of\ ints).\n\ \n\ @author\ M\ K\u00F6lling\n\ @version\ 1.1\n
+comment1.params=
+comment1.target=double\ getExactX()
+comment2.params=
+comment2.target=double\ getExactY()
+comment3.params=x\ y
+comment3.target=void\ setLocation(double,\ double)
+comment3.text=\n\ A\ new\ setLocation\ method\ that\ uses\ rounded\ values\ for\ display\ on\ screen,\ but\n\ maintains\ precision\ values\ for\ further\ movement\ and\ computation.\n
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+comment4.text=\n\ Overriding\ the\ inherited\ setLocation\ method\ so\ that\ we\ store\ the\ location\ locally\n\ before\ using\ it\ to\ set\ the\ location.\n
+numComments=5

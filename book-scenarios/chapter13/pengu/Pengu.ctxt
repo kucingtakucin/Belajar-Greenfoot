@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Pengu
+comment0.text=\n\ A\ little\ penguin\ that\ wants\ to\ get\ to\ the\ other\ side.\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ checkKeys()
+comment3.params=
+comment3.target=void\ jump()
+comment4.params=
+comment4.target=void\ checkFall()
+numComments=5

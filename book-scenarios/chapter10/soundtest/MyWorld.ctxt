@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\n\ A\ simple\ world\ with\ a\ flower.\n\ \n\ @author\ Michael\ K\u00F6lling\ \n\ @version\ 1.0\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+numComments=2

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Plotter
+comment0.text=\n\ Plotter\ is\ an\ actor\ that\ plots\ a\ graph\ of\ the\ population\ of\ two\ Greenfoot\ actor\n\ classes.\ You\ would\ usually\ only\ create\ one\ single\ actor\ of\ this\ class.\n\ \n\ @author\ M\ K\u00F6lling\n\ @version\ 1.1\n
+comment1.params=width\ height\ startMax\ world\ class1\ class2
+comment1.target=Plotter(int,\ int,\ int,\ greenfoot.World,\ java.lang.Class,\ java.lang.Class)
+comment1.text=\n\ Constructor.\n\ \n\ @param\ width\ The\ width\ of\ the\ plotter\ window\ (in\ pixles).\n\ @param\ height\ The\ height\ of\ the\ plotter\ window\ (in\ pixles).\n\ @param\ startMax\ The\ initial\ maximum\ value\ for\ the\ y\ axis.\n\ @param\ world\ The\ world\ object.\n\ @param\ class1\ The\ first\ class\ to\ be\ plotted.\n\ @param\ width\ The\ second\ class\ to\ be\ plotted.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Update\ the\ plotter\ graph.\n
+comment3.params=
+comment3.target=void\ updateGraph()
+comment3.text=\n\ Update\ the\ graph\ component\ in\ our\ window\ with\ the\ current\ object\n\ counts\ for\ the\ two\ monitored\ classes.\n\ Stop\ the\ simulation\ if\ any\ one\ of\ them\ drops\ to\ zero.\n
+comment4.params=width\ height\ startMax
+comment4.target=javax.swing.JFrame\ makeFrame(int,\ int,\ int)
+comment4.text=\n\ Prepare\ the\ frame\ for\ the\ graph\ display.\n
+numComments=5

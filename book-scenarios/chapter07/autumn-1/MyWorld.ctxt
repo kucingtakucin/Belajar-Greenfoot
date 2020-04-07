@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\n\ Autumn.\ A\ world\ with\ some\ leaves.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.1\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\n\ Create\ the\ world\ and\ objects\ in\ it.\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Create\ the\ initial\ objects\ in\ the\ world.\n
+numComments=3

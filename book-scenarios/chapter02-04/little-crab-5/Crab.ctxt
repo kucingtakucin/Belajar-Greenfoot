@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\n\ This\ class\ defines\ a\ crab.\ Crabs\ live\ on\ the\ beach.\ They\ like\ sand\ worms\ \n\ (very\ yummy,\ especially\ the\ green\ ones).\n\ \n\ Version\:\ 5\n\ \n\ In\ this\ version,\ the\ crab\ behaves\ as\ before,\ but\ we\ add\ animation\ of\ the\ \n\ image.\n
+comment1.params=
+comment1.target=Crab()
+comment1.text=\n\ Create\ a\ crab\ and\ initialize\ its\ two\ images.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ \n\ Act\ -\ do\ whatever\ the\ crab\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ \ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ switchImage()
+comment3.text=\n\ Alternate\ the\ crab's\ image\ between\ image1\ and\ image2.\n
+comment4.params=
+comment4.target=void\ checkKeypress()
+comment4.text=\n\ Check\ whether\ a\ control\ key\ on\ the\ keyboard\ has\ been\ pressed.\n\ If\ it\ has,\ react\ accordingly.\n
+comment5.params=
+comment5.target=void\ lookForWorm()
+comment5.text=\n\ Check\ whether\ we\ have\ stumbled\ upon\ a\ worm.\n\ If\ we\ have,\ eat\ it.\ If\ not,\ do\ nothing.\ If\ we\ have\n\ eaten\ eight\ worms,\ we\ win.\n
+numComments=6

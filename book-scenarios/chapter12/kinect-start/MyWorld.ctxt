@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\n\ This\ is\ the\ base\ scenario\ world\ for\ writing\ projects\ using\ the\ Mcrosoft\ Kinect.\n\ \n\ @author\ (your\ name\ here)\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\n\ Constructor\ for\ our\ world.\ Place\ any\ objects\ needed.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ World\ act\ method\:\ Insert\ code\ for\ whatever\ you\ need.\n\ (Don't\ forget\:\ The\ superclass\ act\ method\ must\ be\ called\ in\ all\ Kinect\ scenarios.)\n
+numComments=3

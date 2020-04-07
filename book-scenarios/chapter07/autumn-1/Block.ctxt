@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Block
+comment0.text=\n\ A\ block\ that\ bounces\ back\ and\ forth\ across\ the\ screen.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.1\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ across\ the\ screen,\ bounce\ off\ edges.\ Turn\ leaves,\ if\ we\ touch\ any.\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\n\ Move\ sideways,\ either\ left\ or\ right.\n
+comment3.params=
+comment3.target=void\ checkEdge()
+comment3.text=\n\ Check\ whether\ we\ are\ at\ the\ edge\ of\ the\ screen.\ If\ we\ are,\ turn\ around.\n
+comment4.params=
+comment4.target=void\ checkMouseClick()
+comment4.text=\n\ Check\ whether\ the\ mouse\ button\ was\ clicked.\ If\ it\ was,\ change\ all\ leaves.\n
+numComments=5

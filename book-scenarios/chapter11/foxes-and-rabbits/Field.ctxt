@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Field
+comment0.text=\n\ The\ world\ contaning\ the\ foxes\ and\ rabbits\ (and\ other\ animals\ you\ might\ like\ to\ create).\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.1\n
+comment1.params=
+comment1.target=Field()
+comment1.text=\n\ Create\ the\ field\ and\ populate\ it\ with\ foxes\ and\ rabbits.\n
+comment2.params=
+comment2.target=void\ populate()
+comment2.text=\n\ Populate\ a\ field\ with\ foxes\ and\ rabbits.\n
+comment3.params=x\ y
+comment3.target=Location\ randomAdjacentLocation(int,\ int)
+comment3.text=\n\ Generate\ a\ random\ location\ that\ is\ adjacent\ to\ the\ given\ location,\ or\ is\ the\ \n\ same\ location.\ The\ returned\ location\ will\ be\ within\ the\ valid\ bounds\ of\ the\ field.\n
+comment4.params=x\ y
+comment4.target=Location\ freeAdjacentLocation(int,\ int)
+comment4.text=\n\ Try\ to\ find\ a\ free\ location\ that\ is\ adjacent\ to\ the\ given\ location.\ If\ there\ is\ none,\n\ then\ return\ the\ current\ location\ if\ it\ is\ free.\ If\ not,\ return\ null.\ The\ returned\ \n\ location\ will\ be\ within\ the\ valid\ bounds\ of\ the\ field.\n
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Smoke
+comment0.text=\n\ Smoke.\ A\ simple\ smoke\ puff.\n\ \n\ @author\ mik\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Smoke()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ In\ every\ step,\ get\ smaller\ until\ we\ disappear.\n
+comment3.params=
+comment3.target=void\ shrink()
+numComments=4

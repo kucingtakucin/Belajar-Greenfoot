@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Points
+comment0.text=\n\ An\ image\ of\ points\ scored.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=points
+comment1.target=Points(java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ \n
+numComments=3

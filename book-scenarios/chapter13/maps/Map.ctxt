@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Map
+comment0.text=\n\ A\ helper\ class\ that\ fetch\ a\ googleMap\ for\ a\ specific\ location\n\ as\ an\ Image.\n\ \n\ <pre>\n\ public\ class\ MapActor\ extends\ Actor\n\ {\n\ \ \ \ \ Map\ map;\n\ \ \ \ \ public\ MapActor()\ \n\ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ map\ \=\ new\ Map("Brazil");\n\ \ \ \ \ \ \ \ \ setImage(map.getImage());\n\ \ \ \ \ }\n\ \ \ \ \ \n\ \ \ \ \ public\ void\ act()\ \n\ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ map.zoomIn(1);\n\ \ \ \ \ \ \ \ \ setImage(map.getImage());\n\ \ \ \ \ }\n\ \ \ \ \ \n\ \ \ \ \ public\ void\ setType(String\ type)\ \n\ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ map.setType(type);\n\ \ \ \ \ \ \ \ \ setImage(map.getImage());\n\ \ \ \ \ }\n\ }\n\ </pre>\n\ \n\ @author\ amjad\n\ @version\ 2.0\n
+comment1.params=location
+comment1.target=Map(java.lang.String)
+comment1.text=\n\ Constructs\ a\ map\ object\ that\ build\ a\ map\ of\ a\ specific\ location,\n\ e.g."-15.800513,\ -47.91378"\ or\ "Brooklyn\ Bridge,\ New\ York,\ NY".\n\ The\ width\ and\ height\ fields\ will\ be\ set\ to\ default\ values\ as\ 600\ x\ 400.\n\ The\ zoom\ field\ will\ be\ set\ to\ default\ as\ 5.\n\ \n\ \ @param\ location\ \ the\ location\ represents\ the\ center\ the\ map.\n
+comment2.params=location\ width\ height\ zoom
+comment2.target=Map(java.lang.String,\ int,\ int,\ int)
+comment2.text=\n\ Constructs\ a\ map\ object\ that\ build\ a\ map\ of\ a\ specific\ location,\n\ e.g."-15.800513,\ -47.91378"\ or\ "Brooklyn\ Bridge,\ New\ York,\ NY".\n\ \n\ \ @param\ location\ \ the\ location\ represents\ the\ center\ the\ map.\n\ \ @param\ width\ \ \ \ \ the\ image's\ width.\n\ \ @param\ height\ \ \ \ the\ image's\ height.\n\ \ @param\ zoom\ \ \ \ \ \ the\ zoom\ factor\ of\ the\ map\ [0-20].\n
+comment3.params=value
+comment3.target=void\ setZoom(int)
+comment3.text=\n\ Sets\ the\ zoom\ factor\ insuring\ it\ is\ in\ the\ range\ [0-20].\n\ \n\ @param\ value\ the\ zoom\ factor.\n
+comment4.params=
+comment4.target=void\ buildImage()
+comment4.text=\n\ Prepares\ the\ url\ of\ the\ map\ and\ retrievs\ an\ image\ represention\ of\ this\ map.\n
+comment5.params=location
+comment5.target=void\ setLocation(java.lang.String)
+comment5.text=\n\ Sets\ the\ location.\n\ \n\ @param\ location\ \ the\ new\ location.\n
+comment6.params=
+comment6.target=greenfoot.GreenfootImage\ getImage()
+comment6.text=\n\ Returns\ the\ map\ represented\ as\ GreenfootImage.\n\ \n\ @return\ GreenfootImage\ of\ the\ map.\ \n
+comment7.params=type
+comment7.target=void\ setType(java.lang.String)
+comment7.text=\n\ Sets\ the\ type\ of\ the\ map\ as\ one\ of\:\ roadmap,\ satellite,\ hybrid\ or\ terrain.\n\ \n\ @param\ type\ \ the\ type\ of\ the\ map.\n\ @exception\ if\ the\ passed\ parameter\ is\ not\ one\ of\ the\ predefined\ types.\n
+comment8.params=value
+comment8.target=void\ zoomIn(int)
+comment8.text=\n\ Increases\ the\ zoom\ factor.\n\ \n\ @param\ value\ \ the\ change\ of\ the\ zoom\ factor.\n
+comment9.params=value
+comment9.target=void\ zoomOut(int)
+comment9.text=\n\ Decreases\ the\ zoom\ factor.\n\ \n\ @param\ value\ \ the\ change\ of\ the\ zoom\ factor.\n
+numComments=10

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Thumbnail
+comment0.text=\n\ A\ small\ thumbnail\ image\ of\ the\ Kinect\ camera\ image.\n\ \n\ @author\ Neil\ Brown,\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Thumbnail()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Update\ the\ image.\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cloud
+comment0.text=\n\ A\ cloud\ that\ moves\ back\ and\ forth\ between\ two\ defined\ points.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ in\ the\ direction\ we\ are\ currently\ moving\ in.\ Turn\ if\ we\ reach\ a\ turning\ point.\n
+comment2.params=
+comment2.target=boolean\ atTurningPoint()
+comment2.text=\n\ Test\ if\ we\ are\ at\ one\ of\ the\ turning\ points.\n
+numComments=3

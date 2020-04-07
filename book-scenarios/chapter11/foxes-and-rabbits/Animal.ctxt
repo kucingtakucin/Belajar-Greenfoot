@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ Class\ Animal\ serves\ as\ a\ superclass\ of\ all\ animals\ in\ this\ predator-prey\ simulation.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Animal()
+comment1.text=\n\ Create\ a\ new\ animal\ with\ age\ zero\ (a\ new\ born).\n
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment2.text=\n\ Check\ whether\ the\ animal\ is\ alive\ or\ not.\n\ @return\ True\ if\ the\ animal\ is\ still\ alive.\n
+comment3.params=
+comment3.target=void\ setDead()
+comment3.text=\n\ Tell\ the\ animal\ that\ it's\ dead\ now\ \:(\n
+comment4.params=
+comment4.target=int\ getAge()
+comment4.text=\n\ Return\ the\ animal's\ age.\n\ @return\ The\ animal's\ age.\n
+comment5.params=age
+comment5.target=void\ setAge(int)
+comment5.text=\n\ Set\ the\ animal's\ age.\n\ @param\ age\ The\ animal's\ age.\n
+comment6.params=
+comment6.target=Field\ getField()
+comment6.text=\n\ Return\ the\ field\ we\ live\ in.\n
+numComments=7

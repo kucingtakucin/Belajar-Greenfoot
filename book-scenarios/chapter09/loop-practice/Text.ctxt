@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Text
+comment0.text=\n\ An\ object\ showing\ some\ text.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.1\n
+comment1.params=text
+comment1.target=Text(java.lang.String)
+numComments=2

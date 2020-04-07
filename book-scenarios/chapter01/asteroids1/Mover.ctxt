@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\n\ A\ thing\ that\ can\ move\ around\ with\ a\ certain\ speed.\ \n\ The\ mover\ maintains\ a\ movement\ vector\ of\ current\ movement.\n\ \n\ @author\ Poul\ Henriksen\n\ @author\ Michael\ K\u00F6lling\n\ \n\ @version\ 2.0\n
+comment1.params=
+comment1.target=Mover()
+comment2.params=speed
+comment2.target=Mover(Vector)
+comment2.text=\n\ Create\ new\ mover\ initialised\ with\ given\ speed\ vector.\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\n\ Move\ forward\ one\ step.\ Direction\ and\ speed\ are\ dtermined\ by\ the\ \n\ internal\ movement\ vector.\ Movement\ wraps\ around\ at\ the\ world\ edges.\n
+comment4.params=x\ y
+comment4.target=void\ setLocation(double,\ double)
+comment5.params=x\ y
+comment5.target=void\ setLocation(int,\ int)
+comment6.params=s
+comment6.target=void\ increaseSpeed(Vector)
+comment6.text=\n\ Increase\ the\ current\ speed\ with\ the\ given\ vector.\n
+comment7.params=
+comment7.target=Vector\ getMovement()
+comment7.text=\n\ Return\ the\ current\ movement.\n
+numComments=8

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StickWorld
+comment0.text=\n\ A\ very\ simple\ Kinect\ world\ showing\ the\ stick\ figure\ feature.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=StickWorld()
+comment1.text=\n\ Create\ our\ paint\ world\ with\ a\ small\ thumbnail\ camera\ image\ in\ the\ bottom\ corner.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\:\ show\ users\ as\ stick\ figures.\n
+comment3.params=trackedUsers
+comment3.target=void\ paintStickFigures(UserData[])
+comment3.text=\n\ Paint\ stick\ figures\ on\ the\ world\ background\ for\ every\ user\ we\ can\ see.\n
+comment4.params=
+comment4.target=void\ eraseBackground()
+comment4.text=\n\ Erase\ the\ world\ backgorund.\n
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Canvas
+comment0.text=\n\ A\ canvas\ for\ a\ Kinect\ user\ to\ paint\ on.\ One\ canvas\ is\ created\ per\ user.\n\ \n\ The\ canvas\ size\ is\ the\ same\ as\ the\ world\ size,\ and\ is\ initially\ entirely\ transparent.\ Essentially,\n\ every\ user\ has\ their\ own\ transparent\ layer\ to\ paint\ on.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.6\n
+comment1.params=width\ height\ user
+comment1.target=Canvas(int,\ int,\ UserData)
+comment1.text=\n\ Create\ a\ new\ canvas\ with\ a\ fully\ transparent\ image,\ initialized\ to\ a\ random\ paint\ color,\n\ for\ the\ given\ user.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Interpret\ the\ user's\ gestures\ and\ do\ the\ appropriate\ action.\n
+comment3.params=
+comment3.target=greenfoot.Color\ randomColor()
+comment3.text=\n\ Select\ a\ random\ color\ from\ the\ color\ array\ provided.\n
+numComments=4

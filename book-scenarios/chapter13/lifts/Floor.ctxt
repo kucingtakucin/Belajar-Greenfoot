@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Floor
+comment1.params=
+comment1.target=Floor()
+comment2.params=floorNumber
+comment2.target=Floor(int)
+comment3.params=world
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\n\ Do\ the\ regular\ simulation\ action.\ For\ a\ floor,\ that\ is\:\ produce\ a\ new\n\ person\ every\ now\ and\ then.\n
+comment5.params=
+comment5.target=int\ getFloorNumber()
+comment5.text=\n\ Return\ this\ floor's\ number.\n
+comment6.params=direction
+comment6.target=void\ liftArrived(int)
+comment6.text=\n\ Press\ a\ button\ to\ call\ a\ lift\ to\ this\ floor.\n
+comment7.params=direction
+comment7.target=void\ pressButton(int)
+comment7.text=\n\ Press\ a\ button\ to\ call\ a\ lift\ to\ this\ floor.\n
+comment8.params=direction
+comment8.target=void\ clearButton(int)
+comment8.text=\n\ Press\ a\ button\ to\ call\ a\ lift\ to\ this\ floor.\n
+numComments=9

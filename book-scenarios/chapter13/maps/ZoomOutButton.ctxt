@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ZoomOutButton
+comment0.text=\n\ A\ button\ to\ zoom\ out.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ when\ the\ user\ clicks\ on\ us.\n
+numComments=2

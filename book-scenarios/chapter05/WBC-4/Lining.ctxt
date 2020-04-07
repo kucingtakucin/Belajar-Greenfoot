@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lining
+comment0.text=\n\ The\ Lining\ are\ objects\ at\ the\ edge\ of\ the\ vein.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ the\ lining\ along\ at\ regular\ speed.\n
+numComments=2

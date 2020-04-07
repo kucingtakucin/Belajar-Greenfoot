@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PaintWorld
+comment0.text=\n\ A\ Kinect\ world\ that\ lets\ you\ paint\ with\ your\ hands.\n\ \n\ @author\ Neil\ Brown,\ Michael\ K\u00F6lling\n\ @version\ 1.5\n
+comment1.params=
+comment1.target=PaintWorld()
+comment1.text=\n\ Create\ our\ paint\ world\ with\ a\ small\ thumbnail\ camera\ image\ in\ the\ bottom\ corner.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\:\ show\ users\ as\ stick\ figures.\n
+comment3.params=
+comment3.target=void\ processUsers()
+comment3.text=\n\ For\ every\ tracked\ user,\ paint\ a\ stick\ figure\ and\ maintain\ a\ canvas.\n
+comment4.params=trackedUsers
+comment4.target=void\ manageCanvases(UserData[])
+comment4.text=\n\ Make\ sure\ canvas\ objects\ match\ tracked\ users\:\ Create\ new\ canvas\ objects\ if\n\ we\ see\ new\ users\ entering\ our\ image,\ and\ remove\ canvas\ objects\ for\ users\ \n\ no\ longer\ there.\n
+comment5.params=trackedUsers
+comment5.target=void\ paintStickFigures(UserData[])
+comment5.text=\n\ Paint\ stick\ figures\ on\ the\ world\ background\ for\ every\ user\ we\ can\ see.\n
+comment6.params=
+comment6.target=void\ eraseBackground()
+comment6.text=\n\ Erase\ the\ world\ backgorund.\n
+numComments=7

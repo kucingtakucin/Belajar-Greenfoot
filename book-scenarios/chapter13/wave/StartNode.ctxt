@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=StartNode
+comment0.text=\n\ A\ special\ node\ that\ can\ be\ dragged\ and\ can\ move\ by\ itself.\n
+comment1.params=amp\ freq\ osc\ onSwitch
+comment1.target=StartNode(Slider,\ Slider,\ Switch,\ Switch)
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ doOscillate()
+comment5.params=
+comment5.target=void\ doDrag()
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RedCell
+comment0.text=\n\ Red\ blood\ cells\ float\ in\ the\ blood\ stream,\ carrying\ oxygen.\ They\ don't\ interact\n\ with\ the\ white\ blood\ cells\ -\ they\ just\ float\ past.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.3\n
+comment1.params=
+comment1.target=RedCell()
+comment1.text=\n\ Contructor\:\ Initialise\ the\ floating\ speed\ to\ a\ random\ value.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Float\ along,\ right\ to\ left.\ Disappear\ when\ reaching\ the\ left\ edge.\n
+numComments=3

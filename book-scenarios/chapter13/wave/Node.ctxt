@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ A\ node\ in\ a\ string.\ A\ node\ is\ fixed\ in\ its\ X\ co-ordinate,\ but\ can\ move\ in\ its\ y\ co-ordinate.\n\ It\ will\ be\ pulled\ up\ or\ down\ by\ two\ neighbouring\ nodes.\n\ \n\ @author\ mik\n\ @version\ 1.1\n
+comment1.params=
+comment1.target=Node()
+comment1.text=\n\ Default\ constructor\ (for\ interactive\ testing)\n
+comment2.params=leftNeighbour\ onSwitch
+comment2.target=Node(Node,\ Switch)
+comment2.text=\n\ Construct\ a\ node,\ creating\ a\ link\ to\ its\ left\ neighbour\ (and\ back)\n
+comment3.params=rightNeighbour
+comment3.target=void\ setRightNeighbour(Node)
+comment3.text=\n\ Specify\ the\ right\ neighbour\ of\ ths\ node.\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\n\ Adjust\ out\ Y\ position\ according\ to\ the\ movement\ force\ calculated.\n
+comment5.params=damping
+comment5.target=void\ applyForce(double)
+comment5.text=\n\ Calculate\ the\ force\ on\ this\ node,\ by\ taking\ into\ account\ the\ location\ of\ the\ neighbours.\n
+numComments=6

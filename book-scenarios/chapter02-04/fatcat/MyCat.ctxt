@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MyCat
+comment0.text=\n\ MyCat\ is\ your\ own\ cat.\ Get\ it\ to\ do\ things\ by\ writing\ code\ in\ its\ act\ method.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ MyCat\ wants\ to\ do.\n
+comment2.params=
+comment2.target=void\ jalan()
+numComments=3

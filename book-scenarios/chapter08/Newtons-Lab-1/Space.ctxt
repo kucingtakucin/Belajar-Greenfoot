@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Space
+comment0.text=\n\ Space.\ The\ final\ frontier.\ \n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Space()
+comment1.text=\n\ Create\ space.\n
+comment2.params=
+comment2.target=void\ sunAndPlanet()
+comment2.text=\n\ Set\ up\ the\ universe\ with\ a\ sun\ and\ a\ planet.\n
+comment3.params=
+comment3.target=void\ sunAndTwoPlanets()
+comment3.text=\n\ Set\ up\ the\ universe\ with\ a\ sun\ and\ two\ planets.\n
+comment4.params=
+comment4.target=void\ sunPlanetMoon()
+comment4.text=\n\ Set\ up\ the\ universe\ with\ a\ sun,\ a\ planet,\ and\ a\ moon.\n
+comment5.params=
+comment5.target=void\ removeAllObjects()
+comment5.text=\n\ Remove\ all\ objects\ currently\ in\ the\ world.\n
+numComments=6

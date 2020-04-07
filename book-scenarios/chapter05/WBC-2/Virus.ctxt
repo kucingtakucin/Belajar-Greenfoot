@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Virus
+comment0.text=\n\ A\ Virus\ floats\ through\ the\ blood\ stream.\ It\ is\ bad,\ but\ this\ virus\ is\ too\ strong\n\ for\ our\ white\ blood\ cell\:\ our\ kind\ of\ white\ blood\ cell\ cannot\ destroy\ it.\ In\ fact,\n\ this\ virus\ destroys\ the\ white\ blood\ cell\!\ Stay\ away\ from\ it.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.2\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Float\ along,\ slowly\ rotating.\n
+numComments=2

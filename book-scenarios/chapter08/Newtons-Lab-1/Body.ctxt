@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Body
+comment0.text=\n\ A\ 'Body'\ is\ any\ kind\ of\ object\ in\ space\ that\ has\ a\ mass.\ It\ could\ be\ \n\ a\ star,\ or\ a\ planet,\ or\ anything\ else\ that\ floats\ around\ in\ space.\n\ \n\ @author\ Michael\ K\u00F6lling\ \n\ @version\ 0.2\n
+comment1.params=
+comment1.target=Body()
+comment1.text=\n\ Construct\ a\ Body\ with\ default\ size,\ mass,\ velocity\ and\ color.\n
+comment2.params=size\ mass\ velocity\ color
+comment2.target=Body(int,\ double,\ Vector,\ greenfoot.Color)
+comment2.text=\n\ Construct\ a\ Body\ with\ a\ specified\ size,\ mass,\ velocity\ and\ color.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act.\ That\ is\:\ apply\ \ the\ gravitation\ forces\ from\n\ all\ other\ bodies\ around,\ and\ then\ move.\n
+comment4.params=
+comment4.target=double\ getMass()
+comment4.text=\n\ Return\ the\ mass\ of\ this\ body.\n
+numComments=5

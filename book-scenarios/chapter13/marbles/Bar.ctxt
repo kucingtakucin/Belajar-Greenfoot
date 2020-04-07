@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Bar
+comment0.text=\n\ Write\ a\ description\ of\ class\ Bar\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Bar()
+comment2.params=vertical
+comment2.target=Bar(boolean)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Bar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=4

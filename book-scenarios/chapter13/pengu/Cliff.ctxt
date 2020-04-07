@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cliff
+comment0.text=\n\ It's\ just\ a\ cliff.\n
+comment1.params=
+comment1.target=Cliff()
+comment2.params=flip
+comment2.target=Cliff(boolean)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

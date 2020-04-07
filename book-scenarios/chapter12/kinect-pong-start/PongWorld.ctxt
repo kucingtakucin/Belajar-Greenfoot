@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PongWorld
+comment0.text=\n\ A\ world\ for\ a\ simple\ 'pong'\ style\ computer\ game.\ One\ player\ is\ played\ by\ the\ computer,\n\ that\ other\ is\ a\ Kinect-controlled\ player.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=PongWorld()
+comment1.text=\n\ Create\ the\ game\ world\ with\ the\ game\ objects\ in\ it.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Nothing\ to\ do.\n
+numComments=3

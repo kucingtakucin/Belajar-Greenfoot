@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Stickman
+comment0.text=\n\ This\ is\ a\ stick\ man.\ Make\ him\ run\ and\ jump.\n\ \n\ @author\ \n\ @version\ \n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Make\ the\ stickman\ act.\n
+numComments=2

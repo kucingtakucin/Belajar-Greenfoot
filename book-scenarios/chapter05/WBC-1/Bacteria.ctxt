@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Bacteria
+comment0.text=\n\ Bacteria\ fload\ along\ in\ the\ bloodstream.\ They\ are\ bad.\ Best\ to\ destroy\n\ them\ if\ you\ can.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.1\n
+comment1.params=
+comment1.target=Bacteria()
+comment1.text=\n\ Constructor.\ Nothing\ to\ do\ so\ far.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Float\ along\ the\ bloodstream,\ slowly\ rotating.\n
+numComments=3

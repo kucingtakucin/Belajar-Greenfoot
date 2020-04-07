@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Rock
+comment0.text=\n\ A\ lump\ of\ Rock.\n\ \n\ @author\ mik\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Rock\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ explode()
+comment3.params=x\ y\ numFragments
+comment3.target=void\ placeDebris(int,\ int,\ int)
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Debris
+comment0.text=\n\ Pieces\ of\ rock,\ flying\ around.\n\ \n\ @author\ mik\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Debris()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Debris\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=3

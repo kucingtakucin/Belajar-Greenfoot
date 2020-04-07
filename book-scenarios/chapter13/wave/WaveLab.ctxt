@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WaveLab
+comment0.text=\n\ The\ world\ in\ which\ our\ wave\ lab\ is\ assembled.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.1\n
+comment1.params=
+comment1.target=WaveLab()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ createControls()
+comment4.params=
+comment4.target=Node[]\ createBalls()
+numComments=5

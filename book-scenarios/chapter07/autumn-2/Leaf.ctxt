@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Leaf
+comment0.text=\n\ A\ floating\ leaf\ that\ blows\ across\ the\ screen.\n\n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Leaf()
+comment1.text=\n\ Create\ the\ leaf.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Move\ around.\n
+comment3.params=
+comment3.target=void\ changeImage()
+comment3.text=\n\ Change\ the\ image\ to\ another\ leaf\ image.\ This\ toggles\ back\ and\n\ forth\ between\ two\ images.\n
+numComments=4

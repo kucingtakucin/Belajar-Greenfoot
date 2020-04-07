@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UserImage
+comment0.text=\n\ An\ actor\ that\ displays\ the\ images\ of\ all\ tracked\ users\ (without\ background).\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Get\ the\ combined\ user\ image\ from\ the\ Kinect,\ and\ use\ it\ as\ our\ own\ actor\ image.\n\ The\ size\ of\ the\ image\ is\ the\ same\ as\ the\ world\ (so\ covers\ the\ whole\ background)\n\ but\ background\ (non-user)\ pixels\ are\ transparent.\n
+numComments=2

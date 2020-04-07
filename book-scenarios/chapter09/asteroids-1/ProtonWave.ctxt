@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ProtonWave
+comment0.text=\n\ A\ proton\ wave\ that\ expands\ and\ destroys\ asteroids\ in\ its\ path.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.1\n
+comment1.params=
+comment1.target=ProtonWave()
+comment1.text=\n\ Create\ a\ new\ proton\ wave.\n
+comment2.params=
+comment2.target=void\ initializeImages()
+comment2.text=\ \n\ Create\ the\ images\ for\ expanding\ the\ wave.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ for\ the\ proton\ wave\ is\:\ grow\ and\ check\ whether\ we\ hit\ anything.\n
+numComments=4

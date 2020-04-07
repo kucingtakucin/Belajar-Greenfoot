@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Fred
+comment0.text=\n\ A\ kinect\ user\ avatar.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.1\n
+comment1.params=
+comment1.target=Fred()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n
+comment4.params=user
+comment4.target=void\ trackUser(UserData)
+comment4.text=\n\ Display\ a\ tracked\ user\ on\ screen\n
+comment5.params=world
+comment5.target=void\ createBody(greenfoot.World)
+comment6.params=x\ y
+comment6.target=UserData\ setUpPose(float[],\ float[])
+comment6.text=\n\ Initialise\ the\ coordinates\ for\ the\ default\ body\ poses\ (used\ when\ we\ cannot\n\ see\ a\ user).\n
+comment7.params=
+comment7.target=void\ checkHands()
+comment7.text=\n\ Check\ whether\ a\ hand\ (of\ any\ user)\ touches\ the\ radio.\ Play\ radio\ if\ it\ does.\n
+comment8.params=x\ y
+comment8.target=Radio\ getRadio(int,\ int)
+comment8.text=\n\ Check\ whether\ there\ is\ a\ radio\ at\ coordinate\ x,y.\ Return\ the\ radio\ if\ there\n\ is,\ or\ return\ null\ if\ there\ is\ no\ radio.\n
+numComments=9

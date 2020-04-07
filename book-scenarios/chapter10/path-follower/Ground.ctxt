@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ground
+comment0.text=\n\ A\ background\ with\ a\ path\ drawn\ on\ it.\ Two\ different\ backgrounds\ are\ available.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Ground()
+comment1.text=\n\ Create\ the\ field.\n
+comment2.params=
+comment2.target=void\ showMap1()
+comment3.params=
+comment3.target=void\ showMap2()
+numComments=4

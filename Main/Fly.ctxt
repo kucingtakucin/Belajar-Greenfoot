@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Fly
+comment0.text=\n\ Write\ a\ description\ of\ class\ KupuKupu\ here.\n\n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Fly()
+comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ KupuKupu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=x
+comment3.target=void\ jalan(int)
+comment3.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ @param\ \ x\ \ a\ sample\ parameter\ for\ a\ metho\n
+comment4.params=
+comment4.target=void\ gerakAcak()
+comment4.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n
+comment5.params=
+comment5.target=void\ adaPembatas()
+comment5.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n
+numComments=6

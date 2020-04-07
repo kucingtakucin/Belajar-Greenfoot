@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Box
+comment0.text=\n\ A\ box\ with\ a\ ball\ in\ it.\n\ \n\ @author\ mik\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Box()
+comment1.text=\n\ Construct\ the\ box\ with\ a\ ball\ in\ it.\n
+numComments=2

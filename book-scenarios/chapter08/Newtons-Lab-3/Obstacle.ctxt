@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Obstacle
+comment0.text=\n\ An\ obstacle\ in\ our\ "Newton's\ Lab".\ An\ obstacle\ is\ a\ stationary\ object,\ that\ has\ no\ mass\ (gravity\n\ does\ not\ interact\ with\ it)\ and\ does\ not\ move.\ However,\ when\ it\ is\ touched\ by\ a\ Body\ object,\ it\ makes\n\ a\ sound.\n\ \n\ @author\ Michael\ K\u00F6lling\ \n\ @version\ 1.0\n
+comment1.params=soundFile
+comment1.target=Obstacle(java.lang.String)
+comment1.text=\n\ Create\ an\ obstacle\ with\ an\ associated\ sound\ file.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Each\ act\ cycle,\ check\ whether\ we\ were\ hit.\ If\ we\ were,\ play\ our\ sound.\n
+comment3.params=
+comment3.target=void\ playSound()
+numComments=4
