@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Spider
+comment0.text=\n\ Write\ a\ description\ of\ class\ Spider\ here.\n\ \n\ @author\ (Adam\ Arthur\ Faizal)\ \n\ @version\ (7\ April\ 2020)\n
+comment1.params=direction
+comment1.target=Spider(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Spider\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Movement\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=3

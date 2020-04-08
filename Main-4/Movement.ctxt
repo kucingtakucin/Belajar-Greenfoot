@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Movement
+comment0.text=\n\ Write\ a\ description\ of\ class\ Movement\ here.\n\ \n\ @author\ (Adam\ Arthur\ Faizal)\ \n\ @version\ (7\ April\ 2020)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Movement\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=speed
+comment2.target=void\ gerak(int)
+comment2.text=\n\ gerak\ -\ Method\ untuk\ menggerakkan\ object\n
+comment3.params=
+comment3.target=void\ handleTepi()
+comment3.text=\n\ handleTepi\ -\ Method\ untuk\ membuat\ object\ berbalik\ 180\ derajat\ ketika\ mencapai\ edge\ of\ the\ world\n
+numComments=4
