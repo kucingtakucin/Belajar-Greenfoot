@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Spider extends Movement
 {
-    private final int SPEED = 2;
+    private final int SPEED = 5;
     /**
      * Constructor for objects of class Spider
      */

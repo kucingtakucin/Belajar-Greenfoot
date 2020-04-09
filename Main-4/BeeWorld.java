@@ -9,8 +9,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class BeeWorld extends World
 {
     private int scores = 0;
+    private long detik;
     public Bee bee = new Bee(Greenfoot.getRandomNumber(360));
     public SimpleTimer timer = new SimpleTimer();
+    
     /**
      * Constructor for objects of class MyWorld.
      */
@@ -45,8 +47,11 @@ public class BeeWorld extends World
      */
     public void showTimer()
     {
-        long lastMark = timer.mark();
-        showText("Timer : " + lastMark, 350, 480);
+        this.detik = timer.mark();
+        showText("Timer : " + this.detik, 350, 480);
+        if (this.detik == 60){
+            Greenfoot.stop();
+        }
     }
     
     /**

@@ -34,6 +34,7 @@
 public class SimpleTimer
 {
     private long lastMark = System.currentTimeMillis();
+    private long totalDetik, detikSekarang;
     
     /**
      * Marks the current time.  You can then in future call
@@ -46,7 +47,9 @@ public class SimpleTimer
     public long mark()
     {
         lastMark = System.currentTimeMillis();
-        return lastMark;
+        totalDetik = lastMark / 1000;
+        detikSekarang = (int) (totalDetik % 60);
+        return detikSekarang;
     }
     
     /**
