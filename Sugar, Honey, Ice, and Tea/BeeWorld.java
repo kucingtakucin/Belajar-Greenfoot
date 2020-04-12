@@ -10,6 +10,7 @@ public class BeeWorld extends World
 {
     private int scores = 0;
     private long detik;
+    private Bee bee = new Bee();
     public SimpleTimer timer = new SimpleTimer();
     
     /**
@@ -27,7 +28,7 @@ public class BeeWorld extends World
      */
     private void prepare()
     {
-        addObject(new Bee(), 30, 30);
+        addObject(bee, 30, 30);
         for (int i = 0; i < 10; i++){
             int direction = Greenfoot.getRandomNumber(360);
             int speed = Greenfoot.getRandomNumber(5) + 5;
@@ -43,15 +44,20 @@ public class BeeWorld extends World
     }
     
     /**
+     * getBee - Mendapatkan informasi dari kelas bee
+     */
+    public Bee getBee()
+    {
+        return bee;
+    }
+
+    /**
      * showTimer - Menampilkan timer dilayar
      */
     public void showTimer()
     {
         this.detik = timer.mark();
         showText("Timer : " + this.detik, 350, 480);
-        if (this.detik == 60){
-            Greenfoot.stop();
-        }
     }
     
     /**
@@ -72,6 +78,7 @@ public class BeeWorld extends World
     public void gameOver()
     {
         addObject(new ScoreBoard("Game Over ",this.scores), getWidth() / 2, getHeight() / 2);
+        Greenfoot.stop();
     }
 
     /**
@@ -80,6 +87,7 @@ public class BeeWorld extends World
     public void gameFinish()
     {
         addObject(new ScoreBoard("Selamat, kamu menang!", this.scores), getWidth() / 2, getHeight() / 2);
+        Greenfoot.stop();
     }
 
 }

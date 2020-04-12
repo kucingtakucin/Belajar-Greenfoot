@@ -11,6 +11,7 @@ public class BeeWorld extends World
     private int scores = 0;
     private long detik;
     public SimpleTimer timer = new SimpleTimer();
+    private Bee bee = new Bee();
     
     /**
      * Constructor for objects of class MyWorld.
@@ -27,7 +28,7 @@ public class BeeWorld extends World
      */
     private void prepare()
     {
-        addObject(new Bee(), 30, 30);
+        addObject(bee , 30, 30);
         for (int i = 0; i < 10; i++){
             int direction = Greenfoot.getRandomNumber(360);
             int speed = Greenfoot.getRandomNumber(5) + 5;
@@ -40,6 +41,10 @@ public class BeeWorld extends World
                 addObject(new Spider(direction), a, b);
             }
         }
+    }
+    
+    public Bee getBee(){
+        return bee;
     }
     
     /**

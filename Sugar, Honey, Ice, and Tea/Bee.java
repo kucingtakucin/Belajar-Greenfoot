@@ -96,7 +96,6 @@ public class Bee extends Movement
             tampilkanLives();
             if (lives <= 0){
                 BeeWorld beeWorld = (BeeWorld) getWorld();
-                Greenfoot.stop();
                 beeWorld.gameOver();
             } 
         }

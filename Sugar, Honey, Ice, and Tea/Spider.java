@@ -24,6 +24,18 @@ public class Spider extends Movement
     @Override
     public void act(){
         handleTepi();
-        gerak(this.SPEED);
+        smartMovement();
     }
+    
+    /**
+     * smartMovement - Kelas Spider akan selalu mengikuti kelas Bee
+     */
+    public void smartMovement()
+    {
+        this.move(this.SPEED);
+        BeeWorld beeWorld = (BeeWorld)getWorld();
+        Bee bee = beeWorld.getBee();
+        this.turnTowards(bee.getX(), bee.getY());
+    }
+
 }

@@ -24,6 +24,10 @@ public class Spider extends Movement
     @Override
     public void act(){
         handleTepi();
-        gerak(this.SPEED);
+        // gerak(this.SPEED);
+        move(5);
+        BeeWorld beeWorld = (BeeWorld)getWorld();
+        Bee bee = beeWorld.getBee();
+        this.turnTowards(bee.getX(), bee.getY());
     }
 }
