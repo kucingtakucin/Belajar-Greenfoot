@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class BeeWorld extends World
 {
-    private int scores = 0;
+    private int scores = 0, direction, speed, x, y, a, b;
     private long detik;
     private Bee bee = new Bee();
     public SimpleTimer timer = new SimpleTimer();
@@ -30,14 +30,14 @@ public class BeeWorld extends World
     {
         addObject(bee, 30, 30);
         for (int i = 0; i < 10; i++){
-            int direction = Greenfoot.getRandomNumber(360);
-            int speed = Greenfoot.getRandomNumber(5) + 5;
-            int x = Greenfoot.getRandomNumber(this.getWidth());
-            int y = Greenfoot.getRandomNumber(this.getHeight());
+            this.direction = Greenfoot.getRandomNumber(360);
+            this.speed = Greenfoot.getRandomNumber(5) + 5;
+            this.x = Greenfoot.getRandomNumber(this.getWidth());
+            this.y = Greenfoot.getRandomNumber(this.getHeight());
             addObject(new Fly(speed), x, y);
             if (i < 3){
-                int a = Greenfoot.getRandomNumber(this.getWidth());
-                int b = Greenfoot.getRandomNumber(this.getHeight());
+                this.a = Greenfoot.getRandomNumber(this.getWidth());
+                this.b = Greenfoot.getRandomNumber(this.getHeight());
                 addObject(new Spider(direction), a, b);
             }
         }
@@ -48,7 +48,7 @@ public class BeeWorld extends World
      */
     public Bee getBee()
     {
-        return bee;
+        return this.bee;
     }
 
     /**

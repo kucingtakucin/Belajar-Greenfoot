@@ -70,10 +70,10 @@ public class Bee extends Movement
      */
     public void atTepi()
     {
-        if(getX() >= getWorld().getWidth()){
+        if(getX() >= getWorld().getWidth() - 1){
             this.setLocation(0,getY());
         }
-        if(getY() >= getWorld().getHeight()){
+        if(getY() >= getWorld().getHeight() - 1){
             this.setLocation(getX(),0);
         }
         if(getX() == 0){
