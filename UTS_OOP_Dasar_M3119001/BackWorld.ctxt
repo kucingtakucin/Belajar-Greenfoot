@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BackWorld
+comment0.text=\n\ Ini\ adalah\ kelas\ BackWorld\n\ \n\ @author\ (Adam\ Arthur\ Faizal)\ \n\ @version\ (Rabu,\ 15\ April\ 2020)\n
+comment1.params=
+comment1.target=BackWorld()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BackWorld.\n\ \n
+comment2.params=
+comment2.target=void\ updateScore()
+comment3.params=
+comment3.target=void\ prepare()
+comment4.params=
+comment4.target=LittleFish\ getLittleFish()
+numComments=5
